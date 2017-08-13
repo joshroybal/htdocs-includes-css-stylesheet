@@ -1,3 +1,5 @@
+header > p{border-bottom:1px dashed black;font-style:italic;font-size:x-large;}
+footer > p{border-top:1px dashed black;font-style:italic;}
 .chessboard { margin:20px; display:table; table-layout:fixed; }
-.black { width:60px; height:60px; background-color:#228b22; font-size:50px; text-align:center; display:table-cell; vertical-align:middle; }
-.white { width:60px; height:60px; background-color:#fffdd0; font-size:50px; text-align:center; display:table-cell; vertical-align:middle; }
+.black { width:7vmin; height:7vmin; background-color:#228b22; font-size:6vmin; text-align:center; display:table-cell; vertical-align:middle; }
+.white { width:7vmin; height:7vmin; background-color:#fffdd0; font-size:6vmin; text-align:center; display:table-cell; vertical-align:middle; }

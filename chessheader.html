@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="data processing">
+<link rel="stylesheet" media="all" type="text/css" href="/includes/chessboard.css"/>
+<title><?php echo $hostname; ?></title>
+<?php 
+$hostname=shell_exec(hostname); 
+$data=shell_exec('uptime');
+$uptime=explode(' up ', $data);
+$uptime=explode(',', $uptime[1]);
+$uptime=$uptime[0].', '.$uptime[1];
+?>
+<title>Chessboard using Pure CSS and HTML</title>
+</head>
+<body>
+<header><p><?php echo $hostname; ?></p></header>
